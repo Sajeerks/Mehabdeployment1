@@ -1,0 +1,43 @@
+.gridDataContainer{
+
+width: 100vw;
+height: 80vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+padding-top: 0;
+
+margin-top: 1vmax;
+}
+.gridDataContainer>p{
+    font: 600 1.5vmax "Roboto";
+}
+.htmlToPDFContainer{
+    height: 6vmax;
+    position: static;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 1vmax;
+    margin-left: 1vmax;
+
+}
+.htmlToPDFContainer button{
+    width: auto;
+    height: 30px;
+    background: tomato;
+    color:white;
+     padding-bottom: 10px;
+     text-align: center;
+     vertical-align: middle;
+     padding-top: .6vmax;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     outline: none;
+}
+.htmlToPDFContainer button:hover{
+    background: red;
+}

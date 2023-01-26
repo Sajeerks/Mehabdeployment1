@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+.coatinerlaaMian{
+    /* background-color: aqua; */
+    flex:6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coantieerscond{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 80vw;
+    height: 60vh;
+    gap:1vmax;
+   
+}
+
+
+@media screen and (max-width: 600px) {
+
+   
+    .coantieerscond{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        /* margin-inline: auto; */
+        
+        margin-right: 2vw;
+        
+        gap:0;
+        justify-content: center;
+        align-items: center;
+        max-width: 80vw;
+    }
+}

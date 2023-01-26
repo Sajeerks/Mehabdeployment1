@@ -1,0 +1,13 @@
+/* .MuiStepConnector-active,
+.MuiStepConnector-completed {
+  background-color: tomato;
+} */
+
+.Mui-completed>.MuiStepConnector-line{
+    height: 5px;
+    /* width: 100px; */
+    background: tomato;
+}
+.Mui-completed p{
+    color:tomato;
+}

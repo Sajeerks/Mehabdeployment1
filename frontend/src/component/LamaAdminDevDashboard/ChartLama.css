@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.charheading{
+    text-align: center;
+}
+.charterlam{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 65%;
+    height: 100%;
+    flex: 2;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+
+}
+
+.realCHarLama{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    max-height: 80%;
+    max-width: 80%;
+    position: relative;
+    /* width: max-content;
+    height: max-content; */
+    /* margin: 10%; */
+   
+}
+/* .recharts-wrapper{
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.realCHarLama .recharts-surface{
+    max-height: 300px;
+    max-width: 300px;
+} */
+
+
+@media screen and (max-width: 600px) {
+    .charterlam{
+        display: flex;
+        flex-direction: column;
+        max-width: 90vw;
+        width: 90vw;
+        margin-inline: auto;
+        gap:0;
+    
+    }
+    .realCHarLama{
+        display: flex;
+        flex-direction: column;
+        max-width: 90vw;
+        width: 90vw;
+        margin-inline: auto;
+        gap:0;
+
+    }
+}

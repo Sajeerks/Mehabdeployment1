@@ -1,0 +1,73 @@
+.menubarButton1{
+    /* position: fixed !important;
+    left:25%;
+    top:2%; */
+    /* margin-right: 50%; */
+}
+
+.menuappbar{
+    display: flex;
+}
+
+/* .xxxxxxxxxxxxxx{
+    background: tomato !important;
+
+} */
+.MuiPaper-root{
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(217,87,18,0.9700922605370274) 0%, rgba(229,179,118,0.3958625686602766) 100%, rgba(229,175,122,0.2726132689403886) 100%, rgba(122,235,123,1) 100%); */
+}
+.MuiMenuItem-root{
+    /* background: rebeccapurple; */
+
+}
+/* .MuiPaper-root .MuiPaper-elevation .MuiPaper-rounded .MuiPaper-elevation1 .MuiPaper-root .MuiMenu-paper .MuiPaper-elevation .MuiPaper-rounded .MuiPaper-elevation8 .MuiPopover-paper .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+    background: rgb(71, 255, 237) ;
+}
+.MuiButtonBase-root .MuiMenuItem-root .MuiMenuItem-gutters .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root ul li{
+    background: rgb(126, 71, 255) ;
+
+} */
+
+
+.logincompinNavbar{
+    position: absolute;
+    left:80%;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+
+
+@media screen and (max-width:600px){
+header >div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 15vh;
+    /* background: red; */
+    gap:1px;
+    overflow-y: scroll;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+hr{
+    display: none;
+}
+
+.logincompinNavbar{
+    flex-direction: row;
+    position: relative;
+    /* align-items: center;
+    justify-content: center; */
+     display:inline;
+     /* left:0%; */
+
+}
+
+
+
+
+}

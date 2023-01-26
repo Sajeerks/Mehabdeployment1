@@ -1,0 +1,404 @@
+.LoginSingupContainer{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 230, 230);
+    /* position: fixed;
+    top:0;
+    left:0; */
+    /* z-index: 22; */
+}
+.loginSignUpBox{
+    display:inline-block;
+    background-color: white;
+    width: 25vw;
+    height: 70vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+
+}
+.loginSignUpToggle{
+    display: flex;
+    height: 3vh;
+}
+.loginSignUpToggle p{
+    color:rgba(0,0,0,0.678);
+    font:300 1vamx "Roboto";
+    transition: all 0.5s;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    width: 100%;
+
+}
+.loginSignUpToggle p:hover{
+    color:tomato;
+}
+
+.loginSignUpBox >div >button {
+    background-color: tomato;
+    height: 3px;
+    width: 50%;
+    border:none;
+    transition: all 0.5s;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:  auto;
+    padding:10vmax 2vmax;
+    height: 70%;
+    transition: all 0.5s;
+
+}
+.loginForm >div, .signUpForm >div {
+display: flex;
+width: 100%;
+align-items: center;
+margin: 2vmax 0;
+}
+.loginForm >div >input, .signUpForm >div >input {
+padding: 1vmax 2vmax;
+padding-right:1vmax;
+width: 100%;
+box-sizing: border-box;
+border:1px solid rgba(0,0,0,0.678);
+border-radius: 4px;
+font:300 .9vmax cursive;
+outline: none;
+
+}
+.loginForm >div >svg{
+    position: absolute;
+    transform: translate(.2.5vmax);
+  
+}
+
+.loginForm >a{
+    color:rgba(0,0,0,0.678);
+    text-decoration: none;
+    align-self: flex-end;
+    transition: all 0.5s;
+    font:500 0.8vmax "Gill Sans"
+}
+.loginForm >a:hover{
+    color:black;
+}
+
+.loginBtn,.SignUpBtn{
+    border:none;
+    background-color: tomato;
+    color:white;
+    font:300 0.9vmax "Roboto";
+    width:100%;
+    padding:0.9vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline:none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.678);
+}
+
+.signUpForm img{
+ width: 4vmax;
+ border-radius: 50%;
+}
+
+.signUpForm input {
+    height: 2vmax;
+}
+.signUpForm >div{
+    margin: 1vmax
+}
+.signUpForm svg{
+    transform: translateX(2vmax);
+}
+
+.signUpForm{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0vmax auto;
+    padding: 0vmax 2vmax;
+    height: 70%;
+    transition: all 0.5s;
+    /* background: red; */
+    transform: translateY(100%);
+   
+
+    /* position: absolute; */
+    /* padding-top: 10vmax; */
+    /* margin-top: 5vmax !important; */
+
+}
+
+.shiftToNeutral{
+    transform: translateY(-100%);
+
+   
+}
+
+.shitToRight{
+    transform: translateX(100%);
+}
+
+.shitToLeft{
+ transform: translateX(-150%)!important ;
+ /* background: green; */
+}
+.shiftToNeutralForm{
+    transform: translateY(-110%);
+
+    /* background: blue */
+
+ 
+    }
+
+
+
+
+/* #registerImage>input::file-selector-button{
+    cursor: pointer;
+    width: 100%;
+    height: 3vmax;
+    padding: 0;
+    margin: 0;
+} */
+#registerImage{
+   
+    padding: 0;
+    margin: 0;
+  
+    height: 5vmax;
+    width: 100%;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#registerImage > input{
+
+  background-color: aquamarine;
+}
+/* 
+
+
+
+
+#registerImage > input::-webkit-file-upload-button {
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    height: 5vh;
+    border: none;
+    margin: 0%;
+    font: 400 0.8vmax cursive;
+    transition: all 0.5s;
+    padding: 0 1vmax;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgb(255, 255, 255);
+  }
+
+
+  #registerImage > input::file-selector-button:hover {
+    background-color: rgb(235, 235, 235);
+  } */
+/* 
+  input[type="file"]::-webkit-file-upload-button {
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    height: 5vh;
+    border: none;
+    margin: 0%;
+
+    font: 400 0.8vmax cursive;
+    transition: all 0.5s;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgb(255, 255, 255);
+    display: hidden;
+} */
+
+/* input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: rgb(174, 27, 27);
+    border: 3px solid blue;
+    display: hidden;
+ 
+
+} */
+.fileInput{
+    display: none;
+}
+
+.filechooser{
+    display: flex;
+    z-index: 5;
+    font:600 1.2vmax "Roboto";
+    width: 60%;
+    height: 5vh;
+    background:red;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   color :white;
+   border-radius:  20px;
+   transition: all 2s;
+    
+}
+.filechooser:hover{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(241,21,74,0.9700922605370274) 0%, rgba(122,235,123,1) 100%);
+}
+/* #fileInput{
+  
+} */
+
+
+/* .fileInput{
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+    cursor: pointer;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+
+} */
+ /* input[type="file"] { */
+    /* #registerImage > input::webkit-file-upload-button {
+    
+    cursor: pointer;
+    width: 50%;
+    z-index: 2;
+    height: 5vh;
+    border: none;
+    margin: 0%;
+    font: 400 0.8vmax cursive;
+    transition: all 0.5s;
+    padding: 0% !important;
+    color: rgba(0, 0, 0, 0);
+    background-color: tomato;
+    opacity: 0;
+    
+  }
+
+  #registerImage > input:hover{
+    border:none;
+    background-color: lightpink;
+    overflow: hidden;
+    z-index: 2;
+    cursor: pointer;
+    mix-blend-mode: multiply;
+
+  } */
+  /* .ipan{
+     background-color: greenyellow; 
+    white-space: nowrap;
+    z-index: -10;
+    position: absolute;
+    margin: 0  0  0  20%;
+    color :green
+  } */
+
+  /* [type="file"] {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px;
+  } */
+/* 
+  [type="file"] + label {
+    background-color: #000;
+    border-radius: 4rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 4rem;
+    line-height: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: background-color 0.3s;
+  }
+  [type="file"]:focus + label,
+  [type="file"] + label:hover {
+      background-color: #f15d22;
+  }
+  [type="file"]:focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+  } */
+
+
+
+
+  @media screen and (max-width:600px){
+    .LoginSingupContainer{
+        background-color: white;
+        height: 90vh;
+    }
+    .loginSignUpBox{
+        padding-top: 5vh;
+        width: 100Vw;
+        height: 90vh;
+    }
+    .loginSignUpToggle{
+        height: 2vh;
+        z-index: 999;
+    }
+    .loginForm >div> input
+    {
+        padding: 2.5vmax 5vmax;
+        font:300 1.2vmax Cursive;
+    }
+    /* .loginForm{
+        margin-bottom: 3vh!important;
+    }
+
+    .signUpForm{
+      padding-top: 0%!important;
+    } */
+    .signUpForm > div >input {
+        height: 5vh;
+    
+    }
+    .signUpForm    input[type="text"]::placeholder, 
+    .signUpForm    input[type="email"]::placeholder,
+    .signUpForm    input[type="password"]::placeholder {
+          padding-left: 3vmax;
+    }
+    .signUpForm   input[type="text"], 
+    .signUpForm   input[type="email"],
+    .signUpForm   input[type="password"] {
+     
+      font-size: 2vmax;
+      text-align: left;
+      padding-left: 10%;
+ 
+    }
+
+  
+    .signUpForm >div > svg{
+     transform: translateX(3vmax);
+    }
+    .signupBtn{
+        scale: 2;
+    }
+  }

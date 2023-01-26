@@ -1,0 +1,27 @@
+.reviewCard{
+    width: 10vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 1px solid rgb(240, 223, 219);
+    margin: 1vmax;
+    /* overflow-y: scroll;
+    overflow-x: scroll; */
+    overflow-wrap: break-word;
+    resize: both;
+    overflow: hidden;
+    /* max-width: 20vmax; */
+    min-height: 10vmax;
+    min-width: 20vmax;
+    font : 600 1.1vmax "Roboto";
+    word-break: break-all;
+
+
+
+}
+
+.reviewCard img{
+    width: 5vmax;
+    height: 5vmax;
+}

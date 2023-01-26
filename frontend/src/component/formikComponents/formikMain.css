@@ -1,0 +1,13 @@
+.formController{
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.withRadioFormik{
+    display: flex;
+    flex-direction: row;
+    gap:2vw
+}

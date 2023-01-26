@@ -1,0 +1,86 @@
+.Edit_product_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    margin: 2vmax auto;
+    max-width: 70vw;
+}
+
+.edit_product_actual_form{
+    min-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 10vmax;
+}
+.editorClassName {
+    max-height: 30vh;
+    overflow: scroll;
+    /* overflow-y: scroll; */
+
+}
+
+#descriptionBoxInEditProduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s;
+    padding: 1vmax;
+
+}
+
+.alreadyImages{
+    min-width: 80vw;
+    max-width: 80vw;
+
+    overflow-x: scroll;
+    height: 40vh;
+   max-height: auto;
+   margin: 2vmax auto;
+   display: flex;
+   flex-direction: row;
+   resize: both;
+   align-items: center;
+
+}
+.imageCardInEditProduct{
+    margin: 2vmax;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.imageCardInEditProduct:hover{
+    transform: translateY(4px);
+    transition: all 0.5s;
+}
+.imageCardInEditProduct img{
+    box-shadow:    5px 10px 8px #888888;
+                
+   
+}
+
+.descriptionBoxAddREd{
+    border: 3px double red;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.descriptionBoxAddREd >span{
+    color:red;
+    position: relative;
+}
+
+.dateinputer{
+    position: absolute;
+
+}
+
+/* #createdAt{
+    color:white
+} */

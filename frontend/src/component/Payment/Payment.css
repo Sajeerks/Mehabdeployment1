@@ -1,0 +1,83 @@
+.paymentDiv{
+    width: 90vw;
+
+display: flex;
+flex-direction: column;
+margin: auto;
+align-items: center;
+justify-content: center;
+
+
+
+
+    margin-top: 6vmax;
+}
+.paymentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+height: 80vh;
+margin: auto;
+}
+
+.paymentForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+margin: 5vmax auto;
+width: 30vw;
+height: 50vh;
+border:1px solid rgb(225, 219, 219);
+box-shadow: 10px 5px 5px rgba(118, 114, 114, 0.861);
+
+}
+.paymentForm > div{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+/* align-items: left; */
+
+}
+.paymentForm svg{
+    margin: 1.5vmax 0;
+}
+ .paymentInput  {
+ width: 20vw;
+ margin: 1vmax;
+border:1px solid rgb(225, 219, 219);
+border-radius: 5px;
+height: 30px;
+padding-top: 1vmax;
+padding-left: .9vmax;
+
+}
+.paymentForm button{
+    width: 90%;
+    height: 10vmax;
+    background: tomato;
+    color:white;
+    font:600 2vmax "Roboto";
+    margin-bottom: 3vmax;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.paymentForm button:hover{
+background: red;
+}
+
+@media screen and (max-width:600px){
+    .paymentForm{
+        width: 90vw;
+      
+    }
+    .paymentInput{
+        width: 70vw;
+    }
+    .paymentForm button{
+        height: 5vmax;
+    }
+
+}

@@ -1,0 +1,235 @@
+.productDetails {
+  width: 100vw;
+  max-width: 100%;
+  padding: 6vmax;
+  box-sizing: border-box;
+  /* display: flex; */
+  padding-bottom: 15vmax;
+  display: flex;
+  flex-direction: row;
+  background: hsl(0, 29%, 97%);
+  font: 600 1.2vmax "Roboto";
+
+}
+
+ 
+.productDetails > div {
+  border: 3px solid hsl(0, 25%, 94%);
+  /* align-items: center; */
+  width: 50vmax;
+  height: auto;
+  margin: 0 1vmax;
+}
+
+.carotop {
+  position: relative;
+  width: 50vmax;
+  height: 30vmax;
+  /* width:400px ;
+  height: 400px; */
+}
+.Carouselimage {
+  min-width: 30vmax;
+  min-height: auto;
+  width: 100%;
+  height: fit-content;
+  padding-left: 5vmax;
+
+  max-width: 30vmax;
+  max-height: auto;
+  /* width: 300px !important;
+    height: 300px; */
+  /* object-fit: cover; */
+}
+
+.detailsBlock-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* padding-left: 10vmax; */
+  border-bottom: 1px solid hsl(0, 6%, 44%);
+}
+
+
+.detailsBlock-3{
+  width: 100%;
+}
+.secondsection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: flex-start;
+  /* padding: 0 2vmax; */
+  overflow: hidden;
+}
+.detailsBlock-2 {
+  width: 100%;
+ padding-bottom: 1vmax;
+  border-bottom: 1px solid hsl(0, 6%, 38%);
+}
+.detailsBlock-4 {
+  width: 100%;
+  margin-top: 1vmax;
+  border-bottom: 1px solid hsl(0, 6%, 38%);
+}
+
+.submitReview{
+  margin-top: 1vmax;
+}
+
+
+
+.detailsBlock-3-1{
+  display: flex;
+ border-top: 1px solid hsl(0, 6%, 44%);
+ border-bottom: 1px solid hsl(0, 6%, 44%);
+ /* background-color: blue; */
+
+padding-top: 1vmax;
+padding-bottom: 1vmax;
+max-width: 60vw;
+width: 60vw;
+/* overflow: scroll; */
+}
+.detailsBlock3-1-1 >button{
+  background-color: hsl(0, 13%, 12%);
+  color:white;
+
+}
+.detailsBlock3-1-1 >input{
+  border:none;
+  padding :0.5vmax;
+  width: 3vmax;
+  text-align: center;
+  font :400 0.8vmax "Roboto";
+  color:hsl(0, 68%, 5%)
+}
+/* .detailsBlock-3-1 >button:last-child{
+  border:none;
+  margin-left: 2vmax;
+  width: 6vmax;
+  text-align: center;
+  font :400 0.8vmax "Roboto";
+  background: tomato;
+  color:hsl(0, 32%, 88%);
+  border-radius: 5vmax;
+} */
+
+.detailsBlock-3-1 >button:last-child:hover{
+  background :hsl(0, 83%, 49%)
+}
+.detailsBlock-3 >h1{
+ padding-bottom: 1vmax;
+width: 100%;
+}
+
+.detailsBlock-4{
+  font-style: italic;
+}
+
+.submitReview{
+  border:none;
+  margin-left: 2vmax;
+  margin-bottom: 10vmax;
+  width: 15vmax;
+  height: 3vmax;
+  text-align: center;
+  font :400 0.8vmax "Roboto";
+  background: tomato;
+  color:hsl(0, 32%, 88%);
+  border-radius: 5vmax;
+}
+.submitReview:hover{
+  background :hsl(0, 83%, 49%)
+ 
+}
+
+.reviews{
+
+  max-width: 100%;
+  max-height: 50vmax;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  resize: vertical;
+}
+
+.noReviews{
+  font : 600 1.2vmax "Roboto";
+  text-align: center;
+  color: rgba(25, 25, 25, .8);
+}
+
+.reveiewsHeading{
+  font : 600 1.5vmax "Roboto";
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+
+
+.addtoCartButton{
+  background-color: tomato;
+  width: 20vmax;
+  height: 5vmax;
+  z-index: 555;
+  border-radius: 50%;
+  border: none;
+  /* position: absolute; */
+  
+}
+
+
+
+  .productDetails {
+    flex-direction: column;
+    width: 100vw;
+    overflow:hidden;
+    /* padding-right: 1vmax; */
+    padding: 1vmax;
+    box-sizing: border-box;
+  }
+  .productDetails >div{
+    border:none
+  }
+  .carotop {
+    padding-bottom: 20vmax;
+    margin-right: 5vmax;
+    border: none;
+  }
+  .secondsection{
+    margin-right: 5vmax;
+  
+  }
+
+  .secondsection div{
+    width: 50vw;
+    /* margin-right: 20vw; */
+  }
+
+   .zzzzzzzzzzzzz .MuiDialog-paper,.zzzzzzzzzzzzz .MuiDialog-paper p {
+    color:white
+  }
+   .zzzzzzzzzzzzz .MuiDialog-paper{
+    background:rgba(232, 230, 216, 0.386) ;
+  }
+
+  @media screen and (max-width:600px){
+    .reviews{
+
+      max-width: 100%;
+      max-height: 30vmax;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      overflow-x: scroll;
+      overflow-y: scroll;
+      resize: vertical;
+    }
+
+
+
+  }

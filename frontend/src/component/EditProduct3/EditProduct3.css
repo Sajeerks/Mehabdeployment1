@@ -1,0 +1,149 @@
+:root {
+  --effect-image: url("https://www.pexels.com/photo/white-concrete-building-with-flag-on-top-14165240/");
+  --effect-color: rgb(127, 131, 255);
+  --expandImage-pos: 100% 75%;
+}
+
+.masterGRIdFOrEdotPRoduct3 {
+  position: relative;
+}
+
+.paperImageer {
+  /* background-color: rgb(255, 255, 127) !important; */
+  width: max-content;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh;
+  transition: all 0.5s;
+  margin-inline: 5px;
+}
+
+.paperImageer:hover {
+  background-color: rgb(127, 212, 255) !important;
+  transform: translateY(-10px);
+  transition: all 0.5s;
+}
+
+.imageINEdit3 {
+  max-width: 100px;
+  aspect-ratio: auto;
+}
+.ZoomerTRYOnImage {
+  overflow: hidden;
+}
+
+.ZoomerTRYOnImage:hover {
+}
+.expanderDIvFOrImageINEditRPoduct3 {
+  background-color: hsla(0, 57%, 62%, 0.504);
+  width: 60px;
+  height: 60px;
+  transform: translate(-50%, -50%);
+
+  /* transform: scale(2); */
+  background-size: 300px 150px;
+  background-position: 50% 50%;
+}
+
+.expanderDIvFOrImageINEditRPoduct3:hover {
+  background-color: hsla(122, 57%, 62%, 0.504);
+  width: 60px;
+  height: 60px;
+  /* transform: translate(-50%,-50%),; */
+  cursor: zoom-in;
+  /* transform: scale(2); */
+  /* background-image: ; */
+  /* background-size: 300px 150px; */
+  /* background-position:50% 50%; */
+}
+
+#cursor {
+  background-color: hsla(263, 57%, 62%, 0.504);
+  width: 100px;
+  height: 100px;
+}
+
+.ezpanderResultDIV {
+  background-color: hsla(49, 57%, 62%, 0.504);
+  width: 100px;
+  height: 100px;
+  display: none;
+  /* background-image:    var(--effect-image); */
+  /* background-color:var(--effect-color); */
+}
+
+.ezpanderResultDIVSHown {
+  top: -50px;
+  right: 50px;
+  position: fixed;
+  /* background-color: hsla(12, 57%, 62%, 0.921); */
+  background-color: var(--effect-color);
+
+  background-image: var(--effect-image);
+  width: 300px;
+  height: 300px;
+  display: block;
+  z-index: 99999;
+  margin: 20px;
+  background-size: 200%;
+  pointer-events: none;
+  background-position: var(--expandImage-pos);
+}
+
+.editorClassNameInEdit3 {
+  max-height: 30vh;
+  max-width: 90vw;
+  /* overflow: scroll; */
+  word-wrap: break-word;
+  overflow-y: scroll;
+}
+.edit-product-3-images-from-database{
+    max-height: 30vh;
+    max-width: 80vw;
+    width:80vw ; 
+    height: 30vh;
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    flex-direction: row;
+    overflow-x:scroll; 
+    flex:1;
+    position: relative;
+
+}
+
+.descriptionBoxAddREd{
+  border: 3px double red;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.descriptionBoxAddREd >span{
+  color:red;
+  position: relative;
+}
+
+
+.edit-product-3-exitsint-imageslider{
+    object-fit: cover;
+    width:150px;
+    height: 150px;
+    transition:  all 0.5s;
+     margin-inline: 5px;
+     
+
+
+}
+
+.edit-product-3-exitsint-imageslider:hover{
+    transition:  all 0.5s;
+    transform:  translateY(-5px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.modelforexstingImagedisplay{
+    display: none;
+}

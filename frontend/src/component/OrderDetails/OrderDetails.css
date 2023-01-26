@@ -1,0 +1,66 @@
+.orderDetailsContainer{
+display: flex;
+align-items: center;
+justify-content: center;
+margin :0 auto;
+height: auto;
+width: 100vw;
+flex-direction: column;
+overflow: hidden;
+word-wrap:break-word;
+max-width: 95vw;
+box-sizing: border-box;
+
+    margin-top: 5vmax;
+}
+.hhhcolor{
+    background: tomato;
+}
+
+.orderDetailsContainer p{
+    max-width: 90%;
+    /* word-wrap: break-word; */
+    word-break: break-all;
+    overflow-wrap: break-word;
+    /* padding: 0 5%; */
+    /* text-align: center; */
+    /* margin:0 5%; */
+}
+
+.orderDetailsContainer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.orderDetailsContainer div span{
+    margin: 1vmax;
+    font :600 1.2vmax "Roboto"
+}
+
+.orderDetailsContainer div p{
+    margin: 1vmax;
+}
+
+#dataGridFororderitems{
+ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+}
+
+#dataGridFororderitems h4{
+    align-items:flex-start;
+}
+.itmelistHeading{
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    font :600 1.5vmax "Roboto";
+    padding-left: 3vmax;
+
+    /* float:right; */
+    
+}

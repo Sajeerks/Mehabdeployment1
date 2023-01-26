@@ -1,0 +1,29 @@
+.formikFomrMaster form{
+    display: flex;
+    max-width: 80vw;
+    max-width: 70vh;
+    justify-content: center;
+    align-items: center;
+    margin: 2vmax auto;
+    background-color: rgb(221, 234, 234);
+    flex-direction: column;
+    /* padding: 2vmax; */
+
+}
+.formikFomrMaster  input{
+margin: .8vmax;
+max-width: 70vw;
+width: 30vw;
+}
+.formikFomrMaster form >div{
+
+    margin:1vmax;
+}
+.FormControl{
+    display: flex;
+    flex-direction: column;
+}
+
+.errorMsggg{
+    color:red
+}

@@ -1,0 +1,23 @@
+.dashboardpageMainDiv{
+    min-height: 5vh;
+}
+
+.adimDashBoardButton{
+    background: tomato !important;
+    color:white !important;
+    border-radius: 50% !important;
+    width: auto;
+    height: 6vh;
+    position: relative;
+    margin-top: 5vh !important;
+    margin-left: 2vw !important;
+    transition: all 0.5s !important;
+
+}
+.adimDashBoardButton:hover{ 
+    background: red !important;
+    transition: all 0.5s;
+
+    transform: scale(1.2);
+    
+}

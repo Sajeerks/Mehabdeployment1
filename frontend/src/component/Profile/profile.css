@@ -1,0 +1,65 @@
+.profileContainer{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* top:10%;
+    left:0%;
+    position: absolute; */
+    max-width: 100%;
+    transition: all 0.5s;
+
+    /* min-height: 100vh; */
+
+
+}
+.profileContainer > div{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profileContainer  h1{
+    font :900 2.5vmax "Roboto"    
+}
+.profileContainer  h4, p{
+font :600 1.5vmax "Roboto"
+
+}
+
+.profileContainer a {
+    width: 10vmax;
+    height: 3vmax;
+    background: rgb(249, 78, 78);
+    margin: 2vmax;
+    border-radius: 5px;
+    word-wrap: break-word;
+    font: 300 1vmax "Roboto";
+    color :white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.profileContainer a:hover{
+    background: rgb(7, 103, 247);
+    scale: 1.2;
+    transition: all 0.5s;
+}
+
+.profileContainer img:hover{
+  transform: translateY(-.5vmax);
+  transition: all 0.5s;
+}
+
+
+@media screen and (max-width:600px){
+
+    .profileContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

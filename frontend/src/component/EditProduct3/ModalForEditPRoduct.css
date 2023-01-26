@@ -1,0 +1,106 @@
+.main-modal-div-for-edit-product{
+
+    position: absolute;
+    left:0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    background-color:rgba(17, 1, 1, 0.895);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.modlal-for-edit-produt-heading-div{
+    color:white;
+    font-weight: 600;
+    text-align: center;
+     z-index: 9;
+    
+}
+
+.modal-image-for-edit-product{
+    width: 600px;
+    height: auto;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    max-width: 80vw;
+
+
+}
+.modal-for-edit-image-heading{
+    color:whitesmoke;
+    text-decoration: dotted;
+}
+
+.swipeLeft{
+    position: absolute;
+    left :0%;
+    bottom:50%
+}
+
+
+.swipeLeft{
+    position: absolute;
+    left :10%;
+    bottom:50%;
+    width: auto;
+    z-index: 200;
+   
+
+}
+.swipeLeft:hover{
+    position: absolute;
+    left :10%;
+    bottom:50%;
+    width: auto;
+    z-index: 200;
+    cursor: pointer;
+
+}
+
+.swipeRight{
+    position: absolute;
+    right :10%;
+    bottom:50%;
+    width: auto;
+    z-index: 200;
+
+}
+
+.modal-delete-image-button{
+    position:sticky;
+    /* left :50%; */
+    top:90%;
+    margin-inline: auto;
+    /* transform: translate(-50%,-50%); */
+
+    width: 50%;
+ 
+    cursor: pointer;
+    background-color: hsla(0, 89%, 46%, 0.501);
+    color:whitesmoke;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    z-index:201 ;
+}
+
+.modal-download-image-button{
+    position:sticky;
+    /* left :50%; */
+    top:80%;
+    margin-bottom: 5vh;
+    margin-inline: auto;
+    width: 50%;
+    cursor: pointer;
+    background-color: hsla(41, 97%, 61%, 0.644);
+    color:whitesmoke;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    z-index:201 ;
+}

@@ -1,0 +1,82 @@
+.shippingContainer{
+    margin:  5vmax;
+    margin-top: 7vmax;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.shippingHeading{
+    font:600 4.2vmax "Roboto";
+}
+.shippingBox{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.shippingForm{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.shippingForm div{
+
+    width: 100%;
+    display: flex;
+ 
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center;  */
+    margin: 1vmax;
+
+}
+.shippingForm >div>svg{
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+
+}
+.shippingForm >div >input,.shippingForm >div >select {
+    padding: 1vmax 4vmax;
+    width: 100%;
+ padding-right: 1vmax;
+
+ box-sizing: border-box;
+    height: 5vmax;
+    border: 1px solid rgb(57, 49, 49);
+    margin: 1vmax;
+}
+.shippingBtn {
+    border: none;
+    background-color: tomato;
+    color: white;
+    font: 300 1vmax "Roboto";
+    width: 100%;
+    padding: 1vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+    margin: 2vmax;
+  }
+  
+  .shippingBtn:hover {
+    background-color: rgb(179, 66, 46);
+  }
+
+
+  @media screen and (max-width: 600px) {
+.shippingContainer{
+    width: 90vw;
+}
+
+  }
