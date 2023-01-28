@@ -30,7 +30,7 @@ process.on("uncaughtException", err=>{
 
 
 const server = app.listen(process.env.PORT,()=>{
-    console.log(`sever is working on http://localhost:${process.env.PORT}`)
+    console.log(`sever is working sss on http://localhost:${process.env.PORT}`)
 })
 process.on("unhandledRejection", err=>{
     console.log(`error ${err.message}`)
