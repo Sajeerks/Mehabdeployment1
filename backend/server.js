@@ -14,6 +14,9 @@ cloudinary.config({
     api_secret: process.env.CLOUDINARY_SECRET    ,
 })
 
+
+
+
 // handling uncauage expection 
 process.on("uncaughtException", err=>{
     console.log(`uncaughtException`, err.message)
@@ -21,6 +24,9 @@ process.on("uncaughtException", err=>{
     process.exit(1)
 
 })
+
+
+
 
 
 const server = app.listen(process.env.PORT,()=>{
