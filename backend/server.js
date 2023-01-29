@@ -33,7 +33,8 @@ process.on("uncaughtException", err=>{
 
 
 
-const server = app.listen(PORT, ()=>{
+// const server = 
+app.listen(PORT, ()=>{
     // console.log(`sever is working sss on http://localhost:${process.env.PORT}`)
     // try {
     console.log(`sever is working sss on http://localhost:${PORT}`)
@@ -43,10 +44,10 @@ const server = app.listen(PORT, ()=>{
     // }
 
 })
-process.on("unhandledRejection", err=>{
-    console.log(`error ${err.message}`)
-    console.log("server is shutting down  due to unhandled server rejection " )
-    server.close(()=>{
-        process.exit(1)
-    })
-})
+// process.on("unhandledRejection", err=>{
+//     console.log(`error ${err.message}`)
+//     console.log("server is shutting down  due to unhandled server rejection " )
+//     server.close(()=>{
+//         process.exit(1)
+//     })
+// })
