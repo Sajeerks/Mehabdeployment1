@@ -32,9 +32,15 @@ process.on("uncaughtException", err=>{
 
 
 
-const server = app.listen(PORT,()=>{
+
+const server = app.listen(PORT,async ()=>{
     // console.log(`sever is working sss on http://localhost:${process.env.PORT}`)
+    try {
     console.log(`sever is working sss on http://localhost:${PORT}`)
+        
+    } catch (error) {
+          console.log("error while running the server --", error);
+    }
 
 })
 process.on("unhandledRejection", err=>{

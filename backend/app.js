@@ -37,8 +37,19 @@ app.use('/api/v1', orderRoute)
 app.use('/api/v1', paymentRoute)
 
 
+var options = {
+    dotfiles: 'ignore',
+    etag: false,
+    extensions: ['htm', 'html','css','js','ico','jpg','jpeg','png','svg'],
+    index: ['index.html'],
+    maxAge: '1m',
+    redirect: false
+  }
+
 //after npm run build
-app.use(express.static(path.join(__dirname, "../frontend/build")))
+// app.use(express.static(path.join(__dirname, "../frontend/build")))
+app.use(express.static(path.join(__dirname, "../frontend/build")), options)
+
 
 app.get("*", (req, res)=>{
     res.sendFile(path.resolve(__dirname,"../frontend/build/index.html" ))
