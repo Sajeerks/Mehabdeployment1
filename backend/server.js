@@ -3,6 +3,7 @@ const dotenv = require('dotenv')
 const connect_database = require("./config/database")
 const cloudinary = require("cloudinary")
 
+const PORT = process.env.PORT || 5000
 
 //config
 dotenv.config({path:'backend/config/config.env'})
@@ -29,8 +30,10 @@ process.on("uncaughtException", err=>{
 
 
 
-const server = app.listen(process.env.PORT,()=>{
-    console.log(`sever is working sss on http://localhost:${process.env.PORT}`)
+const server = app.listen(PORT,()=>{
+    // console.log(`sever is working sss on http://localhost:${process.env.PORT}`)
+    console.log(`sever is working sss on http://localhost:${PORT}`)
+
 })
 process.on("unhandledRejection", err=>{
     console.log(`error ${err.message}`)
